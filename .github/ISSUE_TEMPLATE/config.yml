@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord
+    url: https://discord.gg/CbBYZBEWdR
+    about: Ask questions and get help from the community
+  - name: Code of Conduct
+    url: https://github.com/Slimefun5/.github/blob/main/CODE_OF_CONDUCT.md
+    about: Please read this before posting

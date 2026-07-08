@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a bug in Slimefun or one of its addons.
+labels: ["🐞 Bug Report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the fields below so we can reproduce and fix it quickly.
+  - type: input
+    id: version
+    attributes:
+      label: Slimefun / addon version
+      description: Run `/sf versions` in-game and paste the output.
+      placeholder: "e.g. Slimefun 5.2.4, Networks 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: server
+    attributes:
+      label: Minecraft & server version
+      placeholder: "e.g. Paper 1.20.6"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened, and what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Errors / logs (if any)
+      description: Paste any relevant console errors. This is automatically formatted, no backticks needed.
+      render: shell
+    validations:
+      required: false
