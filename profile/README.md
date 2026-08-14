@@ -2,4 +2,4 @@
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5?style=social)](https://github.com/Slimefun5)
 
- https://slimefun5.github.io/builds/
+ https://slimefun5.github.io/
